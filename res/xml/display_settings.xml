@@ -33,6 +33,13 @@
                 android:summary="@string/auto_brightness_summary"
                 android:persistent="false" />
 
+        <!-- Button Backlight -->
+        <com.android.settings.button.ButtonBacklightBrightness
+                android:key="button_backlight"
+                android:title="@string/button_backlight_title"
+                android:dialogTitle="@string/button_backlight_title"
+                android:persistent="false"/>
+
         <!-- Hide night mode for now
         <ListPreference
             android:key="night_mode"
